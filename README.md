@@ -1,7 +1,7 @@
 # Gif-Onboarding
 A Creative way to onboard users.
 
-![ezgif-6-3a09ba1d04a0](https://user-images.githubusercontent.com/79437479/116677374-c2654400-a9c5-11eb-83ce-09de70bfcc82.gif)
+![ezgif-6-d37fe91fda19](https://user-images.githubusercontent.com/79437479/116678361-d78ea280-a9c6-11eb-9aa9-e8eaef7f9d04.gif)
 
 
 An intractive library to onboard your users with gif images. Just add the animation images and you're ready to go!  
@@ -36,7 +36,9 @@ A complete example of updated datasource will look like this
    ![Screenshot 2021-04-30 at 3 02 07 PM](https://user-images.githubusercontent.com/79437479/116677646-13753800-a9c6-11eb-9c52-c470c51a4a46.png)
 
 4. Enjoy the show 
-   ![Screenshot 2021-03-20 at 11 10 39 AM](https://user-images.githubusercontent.com/79437479/111860339-ea946880-896c-11eb-8f54-a3878b729311.png)
+
+  ![Screenshot 2021-03-20 at 11 10 39 AM](https://user-images.githubusercontent.com/79437479/111860339-ea946880-896c-11eb-8f54-a3878b729311.png)
+   
 
 > All the examples can be found at **ViewController.swift**
 ### Pro tip - Handle the complition!

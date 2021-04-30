@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PaginationCollectionViewCell" customModule="Ditto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="575"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="420" height="575"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6my-J9-x5y">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="575"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0A-jk-fbS" customClass="DittoLabelLight" customModule="Ditto" customModuleProvider="target">
+                                <rect key="frame" x="189" y="514.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NQ5-5v-XXy">
+                                <rect key="frame" x="40" y="369.5" width="340" height="135"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="L0A-jk-fbS" secondAttribute="trailing" constant="10" id="2pz-zn-Ehx"/>
+                            <constraint firstItem="NQ5-5v-XXy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6my-J9-x5y" secondAttribute="top" constant="40" id="63B-je-hDg">
+                                <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                            </constraint>
+                            <constraint firstItem="L0A-jk-fbS" firstAttribute="top" secondItem="NQ5-5v-XXy" secondAttribute="bottom" constant="10" id="dlD-uf-6Xo">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="L0A-jk-fbS" secondAttribute="bottom" constant="40" id="hkb-QJ-Yib"/>
+                            <constraint firstAttribute="trailing" secondItem="NQ5-5v-XXy" secondAttribute="trailing" constant="40" id="mEG-ey-mj0"/>
+                            <constraint firstItem="NQ5-5v-XXy" firstAttribute="centerX" secondItem="6my-J9-x5y" secondAttribute="centerX" id="wLl-ux-EJd"/>
+                            <constraint firstItem="L0A-jk-fbS" firstAttribute="centerX" secondItem="6my-J9-x5y" secondAttribute="centerX" id="yaM-Po-Xzc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6my-J9-x5y" secondAttribute="trailing" id="KP1-7L-Km6"/>
+                <constraint firstItem="6my-J9-x5y" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="STL-rc-mnm"/>
+                <constraint firstAttribute="bottom" secondItem="6my-J9-x5y" secondAttribute="bottom" id="cad-JR-AVj"/>
+                <constraint firstItem="6my-J9-x5y" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="w0j-VE-hvS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="420" height="575"/>
+            <connections>
+                <outlet property="pageImageview" destination="NQ5-5v-XXy" id="7Id-AG-DIt"/>
+                <outlet property="pageTitle" destination="L0A-jk-fbS" id="l8O-pa-ewC"/>
+            </connections>
+            <point key="canvasLocation" x="169.59999999999999" y="279.31034482758622"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="135" height="135"/>
+    </resources>
+</document>

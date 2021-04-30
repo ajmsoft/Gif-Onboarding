@@ -1,13 +1,14 @@
 # Gif-Onboarding
 A Creative way to onboard users.
 
-![gif onboarding](https://user-images.githubusercontent.com/79437479/111859610-211bb480-8968-11eb-9357-c626da42fd99.gif)
+![ezgif-6-3a09ba1d04a0](https://user-images.githubusercontent.com/79437479/116677374-c2654400-a9c5-11eb-83ce-09de70bfcc82.gif)
+
 
 An intractive library to onboard your users with gif images. Just add the animation images and you're ready to go!  
 
 ## Installation
 Manually drag **Source** folder into your project and start your creative onboarding experience. 
-## How to start? 
+## Ho to start? 
 
 
 #### Step 1 - Start by adding/updating your datasource
@@ -20,7 +21,8 @@ Create your own datasource by creating an array of animation images. Click on *P
 
 A complete example of updated datasource will look like this
 
-![Screenshot 2021-03-20 at 10 53 50 AM](https://user-images.githubusercontent.com/79437479/111859975-912b3a00-896a-11eb-9d5c-dd9caa13fa9e.png)
+![Screenshot 2021-04-30 at 3 02 31 PM](https://user-images.githubusercontent.com/79437479/116677892-5cc58780-a9c6-11eb-8b1f-6900956fd3bf.png)
+
 
 
 #### Step 2 - Initialise your view and add datasource
@@ -31,7 +33,8 @@ A complete example of updated datasource will look like this
     ![Screenshot 2021-03-20 at 11 03 04 AM](https://user-images.githubusercontent.com/79437479/111860198-f895b980-896b-11eb-9b02-6159086e7f79.png)
     
 3. Create pages for Onboarding and add titles and animation images
-   ![Screenshot 2021-03-20 at 11 08 31 AM](https://user-images.githubusercontent.com/79437479/111860295-a7d29080-896c-11eb-9f62-91e4f3740f1a.png)
+   ![Screenshot 2021-04-30 at 3 02 07 PM](https://user-images.githubusercontent.com/79437479/116677646-13753800-a9c6-11eb-9c52-c470c51a4a46.png)
+
 4. Enjoy the show 
    ![Screenshot 2021-03-20 at 11 10 39 AM](https://user-images.githubusercontent.com/79437479/111860339-ea946880-896c-11eb-8f54-a3878b729311.png)
 

@@ -29,15 +29,15 @@ class ViewController: UIViewController {
     func loadImagesInBackground() {
         DispatchQueue.global(qos: .userInitiated).async {
             var view1 = PaginationPage()
-            view1.title = "Welcome"
+            view1.title = "Welcome!"
             view1.animationImages =  view1.getAnimation1Image()
             
             var view2 = PaginationPage()
-            view2.title = "Show your app feature here"
+            view2.title = "Show your app features here"
             view2.animationImages = view1.getAnimation1Image()
             
             var view3 = PaginationPage()
-            view3.title = "Describe Amazing things about your app"
+            view3.title = "Describe amazing things about your app"
             view3.animationImages = view1.getAnimation1Image()
             
             DispatchQueue.main.async {

@@ -30,9 +30,11 @@ A complete example of updated datasource will look like this
 1. Create a variable in your view controller 
     `private var onboardingView: PaginationView!`
 2. Create initialization method and add the view where you wannt to show Onboarding
+
     ![Screenshot 2021-03-20 at 11 03 04 AM](https://user-images.githubusercontent.com/79437479/111860198-f895b980-896b-11eb-9b02-6159086e7f79.png)
     
 3. Create pages for Onboarding and add titles and animation images
+
    ![Screenshot 2021-04-30 at 3 02 07 PM](https://user-images.githubusercontent.com/79437479/116677646-13753800-a9c6-11eb-9c52-c470c51a4a46.png)
 
 4. Enjoy the show 
